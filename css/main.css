@@ -44,7 +44,7 @@ p {
 .galleria {
   display: grid;
   row-gap: 40px;
-  column-gap: 40px;
+  column-gap: 65px;
   
   padding-top: 40px;
   
