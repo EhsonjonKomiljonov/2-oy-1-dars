@@ -47,7 +47,7 @@ p {
   column-gap: 40px;
   
   padding-top: 40px;
-  margin: 0;
+  
   
   grid-template-columns: repeat(4, 310px);
   
@@ -64,112 +64,96 @@ p {
 }
 
 .gallerea-one {
-  height: 200px;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   /* grid-area: one; */
 }
 
 .gallerea-two {
-  height: 400px;
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   /* grid-area: two; */
 }
   
 .gallerea-three {
-  height: 200px;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   /* grid-area: three; */
 }
 
 .gallerea-four {
-  height: 400px;
   grid-column: 4 / 5;
   grid-row: 1 / 3;
   /* grid-area: four; */
 }
 
 .gallerea-five {
-  height: 400px;
   grid-column: 1 / 2;
   grid-row: 2 / 4;
   /* grid-area: five; */
 }
 
 .gallerea-six {
-  height: 200px;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   /* grid-area: six; */
 }
 
 .gallerea-seven {
-  height: 600px;
   grid-column: 3 / 4;
   grid-row: 2 / 5;
   /* grid-area: seven; */
 }
 
 .gallerea-eight {
-  height: 200px;
   grid-column: 4 / 5;
   grid-row: 3 / 4;
   /* grid-area: eight; */
 }
 
 .gallerea-nine {
-  height: 600px;
   grid-column: 1 / 2;
   grid-row: 4 / 7;
   /* grid-area: nine; */
 }
 
 .gallerea-ten {
-  height: 400px;
   grid-column: 2 / 3;
   grid-row: 4 / 6;
   /* grid-area: ten; */
 }
 
 .gallerea-mono {
-  height: 400px;
   grid-column: 3 / 4;
   grid-row: 5 / 7;
   /* grid-area: mono; */
 }
 
 .gallerea-basket {
-  height: 200px;
   grid-column: 4 / 5;
   grid-row: 4 / 5;
   /* grid-area: basket; */
 }
 
 .gallerea-boy {
-  height: 200px;
   grid-column: 1 / 2;
   grid-row: 7 / 8;
   /* grid-area: boy; */
 }
 
 .gallerea-arnolfini {
-  height: 400px;
   grid-column: 2 / 3;
   grid-row: 6 / 8;
   /* grid-area: arnolfini; */
 }
 
 .gallerea-sleeping{
-  height: 200px;
   grid-column: 3 / 4;
   grid-row: 7 / 8;
   /* grid-area: sleeping; */
 }
 
 .gallerea-swing {
-  height: 600px;
   grid-column: 4 / 5;
   grid-row: 5 / 8;
   /* grid-area: swing; */
@@ -177,7 +161,15 @@ p {
 
 .gallerea-inners{
   position: relative;
+  padding: 10px;
 }
+
+
+.gallerea-inners img{
+  width: 100%;
+  height: 100%;
+}
+
 
 
 .gallerea-content{
